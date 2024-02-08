@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Printer Setup</title>
+</head>
+<body >
+    <div class="w-[90%] mx-auto main flex flex-col justify-center items-center h-[95%] gap-10">
+        <h1 class="text-3xl font-bold text-secondary " >Setups</h1>
+        <div class="cards flex gap-4 flex-wrap justify-center items-center">
+            <div class="card w-[400px] flex gap-x-3 bg-light px-4 py-6 rounded-xl items-center">
+                <div class="img">
+                    <img src="./assets/img/exe.png" alt="exe file image" class="w-20"/>
+                </div>
+                <div class="content w-[45%] text-start flex flex-col justify-between items-start gap-4 ">
+                    <h3 class="text-md">POS80Setup_20200118</h3>
+                    <p class="text-sm opacity-60">13.3 MB</p>
+                </div>
+                <button class="w-16 h-16 rounded-full bg-secondary text-light flex justify-center items-center text-3xl ml-4">
+                    <a href="assets\pos driver\POS80Setup_20200118.exe" download="">
+                        <ion-icon name="download"></ion-icon>
+                    </a>
+                </button>
+            </div>
+            <div class="card w-[400px] flex gap-x-3 bg-light px-4 py-6 rounded-xl items-center">
+                <div class="img">
+                    <img src="./assets/img/exe.png" alt="exe file image" class="w-20"/>
+                </div>
+                <div class="content w-[45%] text-start flex flex-col justify-between items-start gap-4 ">
+                    <h3 class="text-md">POS Printer Driver Setup V7.11</h3>
+                    <p class="text-sm opacity-60">2.7 MB</p>
+                </div>
+                <button class="w-16 h-16 rounded-full bg-secondary text-light flex justify-center items-center text-3xl ml-4">
+                    <a href="assets\pos driver\POS Printer Driver Setup V7.11.exe" download="true">
+                        <ion-icon name="download"></ion-icon>
+                    </a>
+                </button>
+            </div>
+            <div class="card w-[400px] flex gap-x-3 bg-light px-4 py-6 rounded-xl items-center">
+                <div class="img">
+                    <img src="./assets/img/exe.png" alt="exe file image" class="w-20"/>
+                </div>
+                <div class="content w-[45%] text-start flex flex-col justify-between items-start gap-4 ">
+                    <h3 class="text-md">POS+PRINTER</h3>
+                    <p class="text-sm opacity-60">1.8 MB</p>
+                </div>
+                <button class="w-16 h-16 rounded-full bg-secondary text-light flex justify-center items-center text-3xl ml-4">
+                    <a href="assets\pos driver\POS+PRINTER.exe" download="true">
+                        <ion-icon name="download"></ion-icon>
+                    </a>
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="mt-auto">
+        <p class="text-center text-[14px] font-medium">
+            © 2024 Mc. All rights reserved.
+        </p>
+    </footer>
+
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#c9d4ea',
+            light: "#eff3fa",
+            secondary: "#1966c0",
+          }
+        }
+      }
+    }
+  </script>
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+</html>
